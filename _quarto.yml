@@ -1,0 +1,29 @@
+project:
+  type: seedcase-theme
+
+website:
+  title: "Seedcase"
+  # favicon: "images/favicon.ico"
+  site-url: "https://seedcase-project.github.io/seedcase-theme/"
+  repo-url: "https://github.com/seedcase-project/seedcase-theme"
+  page-footer:
+    center:
+      - text: "License: CC-BY 4.0"
+  navbar:
+    right:
+      - text: "Welcome"
+        href: index.qmd
+
+# format:
+#   seedcase-html: 
+    # include-before-body:
+      # - "includes/site-counter.html"
+      # - "includes/contribute.html"
+
+editor:
+  markdown:
+    wrap: 72
+    canonical: true
+
+execute:
+  echo: false

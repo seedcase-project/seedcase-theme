@@ -1,0 +1,20 @@
+/*-- scss:defaults --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+@import url('https://fonts.googleapis.com/css2?family=Lato');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code');
+
+$font-family-sans-serif: "Lato", sans-serif;
+$font-family-monospace: "Fira Code", monospace;
+$headings-font-family: "Poppins", sans-serif;
+$navbar-bg: #990032;
+
+/*-- scss:rules --*/
+
+svg {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+  height: auto !important;
+  width: auto !important;
+}

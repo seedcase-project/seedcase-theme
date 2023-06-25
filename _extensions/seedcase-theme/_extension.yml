@@ -1,0 +1,30 @@
+title: seedcase-theme
+author: Luke W. Johnston
+version: 1.0.0
+quarto-required: ">=1.2.0"
+contributes:
+  formats:
+    html:
+      from: markdown+emoji
+      theme:
+        - zephyr
+        - theme.scss
+      toc: true
+      toc-location: right
+      toc-depth: 3
+  
+  project:
+    project:
+      type: website
+      execute-dir: project
+
+    website:
+      repo-branch: main
+      repo-actions: [edit, issue, source]
+      search:
+        location: navbar
+        type: overlay
+    
+    csl: vancouver.csl
+
+    format: seedcase-theme-html
