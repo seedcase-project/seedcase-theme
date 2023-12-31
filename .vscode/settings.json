@@ -9,8 +9,6 @@
   "autoDocstring.docstringFormat": "numpy",
   "autoDocstring.includeName": true,
   "autoDocstring.startOnNewLine": true,
-  "[quarto]": {
-    "editor.tabCompletion": "on",
-    "editor.snippetSuggestions": "inline"
-  }
+  "editor.tabCompletion": "on",
+  "editor.snippetSuggestions": "inline"
 }
