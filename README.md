@@ -26,7 +26,7 @@ You don't need to do much. Simply add the extension and add the below yaml key-v
 format: seedcase-theme-html
 ```
 
-To **update** the `r3-theme`, run:
+To **update** the `seedcase-theme`, run:
 
 ``` bash
 quarto update seedcase-project/seedcase-theme
