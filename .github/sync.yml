@@ -1,0 +1,11 @@
+group:
+  - files:
+      - source: _extensions/seedcase-theme/
+        dest: _extensions/seedcase-project/seedcase-theme/
+    repos: |
+      seedcase-project/community
+      seedcase-project/design
+      seedcase-project/team
+      seedcase-project/seedcase-project
+      seedcase-project/decisions
+
