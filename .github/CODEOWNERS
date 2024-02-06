@@ -8,3 +8,4 @@
 justfile
 .editorconfig
 .gitignore
+ruff.toml
