@@ -2,17 +2,17 @@
   "files.autoSave": "onFocusChange",
   "editor.tabSize": 2,
   "editor.wordWrap": "off",
-  "editor.formatOnSave": false,
+  "editor.formatOnSave": true,
   "git.autofetch": false,
   "quarto.visualEditor.markdownWrap": "column",
   "quarto.visualEditor.markdownWrapColumn": 72,
-  "autoDocstring.docstringFormat": "numpy",
-  "autoDocstring.includeName": true,
-  "autoDocstring.startOnNewLine": true,
+  "autoDocstring.docstringFormat": "google",
+  "autoDocstring.includeName": false,
+  "autoDocstring.startOnNewLine": false,
   "editor.tabCompletion": "on",
   "editor.snippetSuggestions": "inline",
   "conventional-branch.type": [
-    "build",  // Changes that affect the build system or external dependencies
+    "build", // Changes that affect the build system or external dependencies
     "ci", // Changes to our CI configuration files and scripts
     "docs", // Documentation only changes
     "feat", // A new feature
@@ -22,5 +22,8 @@
     "test", // Adding missing tests or correcting existing tests
     "chore", // Misc things, like renaming or deleting files
   ],
-  "conventional-branch.format": "{Type}/{Branch}"
+  "conventional-branch.format": "{Type}/{Branch}",
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  }
 }
