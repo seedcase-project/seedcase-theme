@@ -6,9 +6,7 @@
   "git.autofetch": false,
   "quarto.visualEditor.markdownWrap": "column",
   "quarto.visualEditor.markdownWrapColumn": 72,
-  "autoDocstring.docstringFormat": "google",
-  "autoDocstring.includeName": false,
-  "autoDocstring.startOnNewLine": false,
+  "autoDocstring.customTemplatePath": ".vscode/google-notypes.mustache",
   "editor.tabCompletion": "on",
   "editor.snippetSuggestions": "inline",
   "conventional-branch.type": [
