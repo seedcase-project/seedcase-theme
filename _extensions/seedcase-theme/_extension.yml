@@ -19,12 +19,13 @@ contributes:
       execute-dir: project
 
     website:
+      page-navigation: true
       repo-branch: main
       repo-actions: [edit, issue, source]
       search:
         location: navbar
         type: overlay
-    
+
     csl: vancouver.csl
 
     format: seedcase-theme-html
