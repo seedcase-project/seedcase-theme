@@ -7,7 +7,7 @@ contributes:
     html:
       from: markdown+emoji
       theme:
-        - zephyr
+        - cosmo
         - theme.scss
       toc: true
       toc-location: right
