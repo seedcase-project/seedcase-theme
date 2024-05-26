@@ -36,7 +36,7 @@
 	
 	"Insert YAML header for blogs": {
 		"scope": "quarto,markdown",
-		"prefix": "yaml_blog",
+		"prefix": "post_yaml",
 		"body": [
 			"---"
 			"title: \"\""
@@ -44,6 +44,7 @@
 			"author: \"\""
 			"date: last-modified"
 			"categories:"
+			"  ${0:Type 'category_keywords' to insert categories}"
 			"---"
 		],
 		"description": "Insert YAML header for Quarto blog posts."
@@ -112,55 +113,48 @@
 // The idea is that we can insert this section and then delete the words we aren't interested in
 // If words are missing then they can be added to the document, and then also added to the code snippet
 // Much the same way that words can be added to the spell-check extension.
-	"Insert title section with list of category words": {
-		"scope": "quarto,markdown",
-		"prefix": "ttl_sec_cat",
+	"Insert list of category words": {
+		"scope": "quarto,markdown,yaml",
+		"prefix": "category_keywords",
 		"body": [
-			"---"
-			"title: \"\""
-			"description: \"Our reasons for ...\""
-			"author: \"\""
-			"date: last-modified"
-			"categories:"
-			"  - api"
-			"  - backend"
-			"  - blogs"
-			"  - code snippets"
-			"  - communication"
-			"  - container"
-			"  - contributing"
-			"  - copyright"
-			"  - culture"
-			"  - database"
-			"  - development"
-			"  - documentation"
-			"  - frontend"
-			"  - github"
-			"  - implementation"
-			"  - installation"
-			"  - licensing"
-			"  - management"
-			"  - markdown"
-			"  - organization"
-			"  - programming"
-			"  - repositories"
-			"  - reviewing"
-			"  - software"
-			"  - software architecture"
-			"  - standardisation"
-			"  - structure"
-			"  - team work"
-			"  - teamworking"
-			"  - technology"
-			"  - templates"
-			"  - tools"
-			"  - vs code"
-			"  - web"
-			"  - website"
-			"  - workflow"
-			"  - writing"
-			"---"
+			"- api"
+			"- backend"
+			"- blogs"
+			"- code snippets"
+			"- communication"
+			"- container"
+			"- contributing"
+			"- copyright"
+			"- culture"
+			"- database"
+			"- development"
+			"- documentation"
+			"- frontend"
+			"- github"
+			"- implementation"
+			"- installation"
+			"- licensing"
+			"- management"
+			"- markdown"
+			"- organization"
+			"- programming"
+			"- repositories"
+			"- reviewing"
+			"- software"
+			"- software architecture"
+			"- standardisation"
+			"- structure"
+			"- team work"
+			"- teamworking"
+			"- technology"
+			"- templates"
+			"- tools"
+			"- vs code"
+			"- web"
+			"- website"
+			"- workflow"
+			"- writing"
 		],
-		"description": "Insert title with category words"
+		"description": "Insert list of category words"
 	}
 }
