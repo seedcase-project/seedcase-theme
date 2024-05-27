@@ -19,11 +19,14 @@ contributes:
       execute-dir: project
 
     website:
+      favicon: favicon.ico
       repo-branch: main
       repo-actions: [edit, issue, source]
       search:
         location: navbar
         type: overlay
+      navbar:
+        logo: logo.png
     
     csl: vancouver.csl
 
