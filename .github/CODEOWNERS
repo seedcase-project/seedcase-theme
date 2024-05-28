@@ -9,3 +9,5 @@ justfile
 .editorconfig
 .gitignore
 ruff.toml
+pyproject.toml
+poetry.lock
