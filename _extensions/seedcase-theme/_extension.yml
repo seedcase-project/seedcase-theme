@@ -7,7 +7,7 @@ contributes:
     html:
       from: markdown+emoji
       theme:
-        - zephyr
+        - cosmo
         - theme.scss
       toc: true
       toc-location: right
@@ -19,6 +19,7 @@ contributes:
       execute-dir: project
 
     website:
+      page-navigation: true
       favicon: favicon.ico
       repo-branch: main
       repo-actions: [edit, issue, source]

@@ -1,13 +1,19 @@
 /*-- scss:defaults --*/
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins');
-@import url('https://fonts.googleapis.com/css2?family=Lato');
+@import url('https://fonts.googleapis.com/css2?family=Noto Sans');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro');
 
-$font-family-sans-serif: "Lato", sans-serif;
+$font-family-sans-serif: "Maven Pro", sans-serif;
 $font-family-monospace: "Fira Code", monospace;
-$headings-font-family: "Poppins", sans-serif;
-$navbar-bg: #990032;
+$headings-font-family: "Noto Sans", sans-serif;
+
+/* brand colour #003224 - the one below is a slightly lighter version of the brand colour */
+$primary: #196440;
+$secondary: #C6F0D3;
+$toc-active-border: #8b8b8b;
+
+$navbar-padding-y: .2rem;
 
 /*-- scss:rules --*/
 
@@ -17,4 +23,8 @@ svg {
   margin: 0 auto;
   height: auto !important;
   width: auto !important;
+}
+
+li {
+  margin: 5px 0;
 }
