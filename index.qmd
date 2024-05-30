@@ -38,3 +38,5 @@ Some text.
 ## Another
 
 More text.
+
+![This is a caption](images/seed-case.png){width="300"}
