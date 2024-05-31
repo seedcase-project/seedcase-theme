@@ -6,7 +6,7 @@ group:
       seedcase-project/community
       seedcase-project/design
       seedcase-project/team
-      seedcase-project/seedcase-project
+      seedcase-project/seedcase-website
       seedcase-project/decisions
   - files:
       - source: _extensions/seedcase-theme/
