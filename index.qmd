@@ -39,4 +39,4 @@ Some text.
 
 More text.
 
-![This is a caption](images/seed-case.png){width="300"}
+![This is a caption](_extensions/seedcase-theme/logo.png){width="200"}
