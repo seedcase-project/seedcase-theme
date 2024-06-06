@@ -2,7 +2,6 @@ project:
   type: seedcase-theme
 
 website:
-  title: "Seedcase"
   site-url: "https://seedcase-project.github.io/seedcase-theme/"
   repo-url: "https://github.com/seedcase-project/seedcase-theme"
   page-footer:
