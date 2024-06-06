@@ -9,9 +9,11 @@ $font-family-monospace: "Fira Code", monospace;
 $headings-font-family: "Noto Sans", sans-serif;
 
 /* brand colour #003224 - the one below is a slightly lighter version of the brand colour */
-$primary: #196440;
-$secondary: #C6F0D3;
-$toc-active-border: #8b8b8b;
+/* using rgb to be able to use rgba, i.e., opacity */
+$primary: rgb(25, 100, 64); // #196440
+$secondary: rgb(198, 240, 211); // #c6f0d3
+$tertiary: rgb(72, 220, 118); // #48dc76
+$toc-active-border: rgb(139, 139, 139); // #8b8b8b;
 
 $navbar-padding-y: .2rem;
 
