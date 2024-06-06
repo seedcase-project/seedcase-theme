@@ -27,7 +27,7 @@ contributes:
         location: navbar
         type: overlay
       navbar:
-        logo: logo.png
+        background: light
     
     csl: vancouver.csl
 
