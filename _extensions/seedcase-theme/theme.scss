@@ -37,3 +37,20 @@ li {
 figcaption {
   text-align: center;
 }
+
+.about-link {
+  background-color: $secondary !important;
+  border: 1px solid $tertiary !important;
+  border-radius: 50px !important;
+  color: $primary !important;
+}
+
+.about-link:hover {
+  background-color: rgba($secondary, 0.3) !important;
+}
+
+.about-links {
+  justify-content: left !important;
+  padding: 10px 0px 0px 0px !important;
+}
+
