@@ -54,3 +54,22 @@ figcaption {
   padding: 10px 0px 0px 0px !important;
 }
 
+/* TODO: take inspiration from Quarto-web to make this cleaner */
+.landing-page-banner {
+  background-color: rgba($secondary, 0.3);
+  padding: 10px;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  width: 100vw;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.landing-page-banner-content {
+  max-width: 800px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  margin-bottom: 40px;
+}
+
