@@ -2,15 +2,16 @@ project:
   type: seedcase-theme
 
 website:
-  title: "Seedcase"
+  title: "Seedcase Quarto theme"
   site-url: "https://seedcase-project.github.io/seedcase-theme/"
   repo-url: "https://github.com/seedcase-project/seedcase-theme"
   page-footer:
     center:
       - text: "License: CC-BY 4.0"
   navbar:
+    logo: _extensions/seedcase-theme/logos/seedcase-logo.svg
     pinned: true
-    right:
+    left:
       - text: "Welcome"
         href: index.qmd
   sidebar:
