@@ -20,7 +20,7 @@ contributes:
 
     website:
       page-navigation: true
-      favicon: favicon.ico
+      favicon: favicon/favicon.ico
       repo-branch: main
       repo-actions: [edit, issue, source]
       search:
