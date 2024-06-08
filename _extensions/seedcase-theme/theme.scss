@@ -9,13 +9,18 @@ $font-family-monospace: "Fira Code", monospace;
 $headings-font-family: "Noto Sans", sans-serif;
 
 /* brand colour #003224 - the one below is a slightly lighter version of the brand colour */
-$primary: #196440;
-$secondary: #C6F0D3;
-$toc-active-border: #8b8b8b;
+/* using rgb to be able to use rgba, i.e., opacity */
+$primary: rgb(25, 100, 64); // #196440
+$secondary: rgb(198, 240, 211); // #c6f0d3
+$tertiary: rgb(72, 220, 118); // #48dc76
+$toc-active-border: rgb(139, 139, 139); // #8b8b8b;
 
 $navbar-padding-y: .2rem;
 
 /*-- scss:rules --*/
+.navbar {
+  border-bottom: rgba($toc-active-border, 0.3) 1px solid;
+}
 
 svg {
   display: block;
@@ -31,4 +36,50 @@ li {
 
 figcaption {
   text-align: center;
+}
+
+.about-link {
+  background-color: $secondary !important;
+  border: 1px solid $tertiary !important;
+  border-radius: 50px !important;
+  color: $primary !important;
+}
+
+.about-link:hover {
+  background-color: rgba($secondary, 0.3) !important;
+}
+
+.about-links {
+  justify-content: left !important;
+  padding: 10px 0px 0px 0px !important;
+}
+
+/* TODO: take inspiration from Quarto-web to make this cleaner */
+.landing-page-banner {
+  background-color: rgba($secondary, 0.3);
+  padding: 10px;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  width: 100vw;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.landing-page-banner-content {
+  max-width: 800px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  margin-bottom: 40px;
+}
+
+.card {
+  border-radius: 12px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  background-color: rgba($secondary, 0.3);
+  border: none;
+  padding: 5px 20px 10px 20px;
+  margin-bottom: 40px;
+  height: 500px;
+  justify-content: start !important;
 }
