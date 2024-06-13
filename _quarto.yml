@@ -10,6 +10,7 @@ website:
       - text: "License: CC-BY 4.0"
   navbar:
     logo: _extensions/seedcase-theme/logos/seedcase-logo.svg
+    logo-alt: "Seedcase Project logo"
     pinned: true
     left:
       - text: "Welcome"
