@@ -29,7 +29,7 @@ contributes:
       navbar:
         background: light
         logo: logos/navbar-logo-seedcase-project.svg
-        logo-alt: "Seedcase Project logo"
+        logo-alt: "Seedcase Project logo: Main page"
     
     csl: vancouver.csl
 
