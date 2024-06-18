@@ -1,0 +1,18 @@
+@startuml sequence-diagram
+!theme seedcase from ../_extensions/seedcase-theme
+
+title Test sequence diagram
+
+participant "User" as u
+participant "Frontend" as f
+participant "API" as api
+participant "Backend" as db
+
+u -> f --: Enter login information
+f -> api --: Send login request
+api -> db ++: Check permissions level
+db --> api --: Send permissions level
+api --> u --: Show permission-dependent content
+
+@enduml
+
