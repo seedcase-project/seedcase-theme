@@ -20,6 +20,7 @@ Container_Boundary(con_bou, "Container boundary") {
   Container(con, "Container label", "Technology", "Optional description")
   ContainerDb(con_db, "Container database", "Technology", "Optional description")
   Container_Ext(con_ext, "External container", "Technology", "Optional description")
+  ContainerDb_Ext(con_db_ext, "External container", "Technology", "Optional description")
 }
 
 Boundary(bou1, "Boundary 1") {
