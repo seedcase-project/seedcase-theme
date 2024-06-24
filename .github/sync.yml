@@ -8,9 +8,5 @@ group:
       seedcase-project/team
       seedcase-project/seedcase-website
       seedcase-project/decisions
-  - files:
-      - source: _extensions/seedcase-theme/
-        dest: docs/_extensions/seedcase-project/seedcase-theme/
-    repos: |
       seedcase-project/seedcase-sprout
 
