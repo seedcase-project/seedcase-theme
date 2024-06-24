@@ -1,5 +1,5 @@
 @startuml test-state-diagram
-!theme seedcase from ../_extensions/seedcase-theme
+!theme seedcase from ../
 
 title Test state diagram
 

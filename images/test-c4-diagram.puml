@@ -1,5 +1,5 @@
 @startuml test-c4-diagram
-!theme seedcase from ../_extensions/seedcase-theme
+!theme seedcase from ../
 !include  https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
