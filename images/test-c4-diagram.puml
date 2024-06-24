@@ -19,11 +19,11 @@ System_Boundary(sys_bou, "System boundary") {
 Container_Boundary(con_bou, "Container boundary") {
   Container(con, "Container label", "Technology", "Optional description")
   ContainerDb(con_db, "Container database", "Technology", "Optional description")
-  Container_Ext(container_ext, "External container", "Technology", "Optional description")
+  Container_Ext(con_ext, "External container", "Technology", "Optional description")
 }
 
 Boundary(bou1, "Boundary 1") {
-  Component(component, "Component", "Technology","Optional description")
+  Component(com, "Component", "Technology","Optional description")
   Component_Ext(com_ext, "External component", "Technology", "Optional description")
 }
 
