@@ -1,5 +1,5 @@
 @startuml sequence-diagram
-!theme seedcase from ../_extensions/seedcase-theme
+!theme seedcase from ../
 
 title Test sequence diagram
 
