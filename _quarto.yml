@@ -5,12 +5,6 @@ website:
   title: "Seedcase Quarto theme"
   site-url: "https://seedcase-project.github.io/seedcase-theme/"
   repo-url: "https://github.com/seedcase-project/seedcase-theme"
-  page-footer:
-    center:
-      - text: "License: CC-BY 4.0"
-        href: https://seedcase-project.org/license
-      - text: "This project is funded by a grant from the Novo Nordisk Foundation"
-        href: https://seedcase-project.org/#acknowledgements
   navbar:
     logo: _extensions/seedcase-theme/logos/seedcase-logo.svg
     logo-alt: "Seedcase Project logo: Main page"
