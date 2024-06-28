@@ -34,7 +34,7 @@ contributes:
           center:
             - text: "License: CC-BY 4.0"
               href: https://seedcase-project.org/license
-            - text: "This project is funded by a grant from the Novo Nordisk Foundation"
+            - text: "Funded by the Novo Nordisk Foundation"
               href: https://seedcase-project.org/#acknowledgements
     
     csl: vancouver.csl
