@@ -30,12 +30,17 @@ contributes:
         background: light
         logo: logos/navbar-logo-seedcase-project.svg
         logo-alt: "Seedcase Project logo: Main page"
-        page-footer:
-          center:
-            - text: "License: CC-BY 4.0"
-              href: https://seedcase-project.org/license
-            - text: "Funded by the Novo Nordisk Foundation"
-              href: https://seedcase-project.org/#acknowledgements
+      page-footer:
+        border: true
+        center:
+          - text: "License: CC-BY 4.0"
+            href: https://seedcase-project.org/license
+          - text: "Code of Conduct"
+            href: "https://github.com/seedcase-project/.github/blob/main/CODE_OF_CONDUCT.md"
+          - text: "Contributing"
+            href: "https://community.seedcase-project.org/guides/"
+          - text: "Funded by the Novo Nordisk Foundation"
+            href: https://seedcase-project.org/#acknowledgements
     
     csl: vancouver.csl
 
