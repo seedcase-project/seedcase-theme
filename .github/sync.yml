@@ -2,6 +2,7 @@ group:
   - files:
       - source: _extensions/seedcase-theme/
         dest: _extensions/seedcase-project/seedcase-theme/
+        deleteOrphaned: true
     repos: |
       seedcase-project/community
       seedcase-project/design
