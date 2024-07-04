@@ -15,5 +15,11 @@ jobs:
       - name: Run GitHub File Sync
         uses: BetaHuhn/repo-file-sync-action@v1
         with:
-          # Not the default GITHUB_PAT, but a created one with full repo scope.
-          GH_PAT: ${{ secrets.GH_PAT }}
+          GH_PAT: ${{ secrets.SYNC_PAT }}
+          ASSIGNEES: lwjohnst86
+          IS_FINE_GRAINED: true
+          GIT_USERNAME: lwjohnst86
+          GIT_EMAIL: lwjohnst@gmail.com
+          COMMIT_PREFIX: "chore(sync): :hammer: "
+          BRANCH_PREFIX: chore
+          TEAM_REVIEWERS: admin
