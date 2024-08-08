@@ -37,4 +37,6 @@
     "quarto"
   ],
   "cSpell.language": "en,en-GB",
+  "python.testing.pytestEnabled": true,
+  "python.testing.pytestPath": "${workspaceFolder}/.venv/bin/pytest",
 }
