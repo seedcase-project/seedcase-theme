@@ -3,13 +3,9 @@
   "editor.tabSize": 2,
   "editor.wordWrap": "off",
   "editor.formatOnSave": true,
-  "editor.codeActionsOnSave": {
-    "source.organizeImports": "always"
-  },
   "git.autofetch": false,
   "quarto.visualEditor.markdownWrap": "column",
   "quarto.visualEditor.markdownWrapColumn": 72,
-  "autoDocstring.customTemplatePath": ".vscode/google-notypes.mustache",
   "editor.tabCompletion": "on",
   "editor.snippetSuggestions": "inline",
   "conventional-branch.type": [
@@ -24,19 +20,9 @@
     "chore", // Misc things, like renaming or deleting files
   ],
   "conventional-branch.format": "{Type}/{Branch}",
-  "[python]": {
-    "editor.defaultFormatter": "charliermarsh.ruff"
-  },
-  "[html][django-html]": {
-    "editor.defaultFormatter": "monosans.djlint"
-  },
-  "python.defaultInterpreterPath": "${workspaceFolder}/.venv",
-  "python.languageServer": "Pylance",
   "files.insertFinalNewline": true,
   "cSpell.enableFiletypes": [
     "quarto"
   ],
   "cSpell.language": "en,en-GB",
-  "python.testing.pytestEnabled": true,
-  "python.testing.pytestPath": "${workspaceFolder}/.venv/bin/pytest",
 }
