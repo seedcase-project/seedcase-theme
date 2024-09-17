@@ -3,6 +3,13 @@ group:
       - source: _extensions/seedcase-theme/
         dest: _extensions/seedcase-project/seedcase-theme/
         deleteOrphaned: true
+
+      # Actions
+      - source: .github/workflows/
+        dest: .github/workflows/
+        deleteOrphaned: true
+        exclude: |
+          sync-files.yml
     repos: |
       seedcase-project/community
       seedcase-project/design
