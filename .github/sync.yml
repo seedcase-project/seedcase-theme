@@ -27,7 +27,7 @@ group:
       # Quarto Extension
       - source: _extensions/seedcase-theme/
         dest: _extensions/seedcase-project/seedcase-theme/
-        deleteOrphaned: trueWorkflows
+        deleteOrphaned: true
 
     repos: |
       seedcase-project/community
@@ -35,5 +35,13 @@ group:
       seedcase-project/team
       seedcase-project/seedcase-website
       seedcase-project/decisions
-      seedcase-project/seedcase-sprout
       seedcase-project/data
+
+  - files:
+      # Quarto Extension
+      - source: _extensions/seedcase-theme/
+        dest: _extensions/seedcase-project/seedcase-theme/
+        deleteOrphaned: true
+
+    repos: |
+      seedcase-project/seedcase-sprout
