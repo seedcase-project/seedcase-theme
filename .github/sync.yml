@@ -35,7 +35,6 @@ group:
       seedcase-project/team
       seedcase-project/seedcase-website
       seedcase-project/decisions
-      seedcase-project/data
 
   - files:
       # Quarto Extension
