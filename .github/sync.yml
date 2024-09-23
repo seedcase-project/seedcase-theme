@@ -1,8 +1,34 @@
 group:
   - files:
+      # Misc
+      - source: .github/CODEOWNERS
+        dest: .github/CODEOWNERS
+      - source: .editorconfig
+        dest: .editorconfig
+      - source: .gitignore
+        dest: .gitignore
+      - source: .github/pull_request_template.md
+        dest: .github/pull_request_template.md
+      - source: justfile
+        dest: justfile
+
+      # VS Code config
+      - source: .vscode/
+        dest: .vscode/
+        deleteOrphaned: true
+
+      # Workflows
+      - source: .github/workflows/
+        dest: .github/workflows/
+        deleteOrphaned: true
+        exclude: |
+          sync-files.yml
+
+      # Quarto Extension
       - source: _extensions/seedcase-theme/
         dest: _extensions/seedcase-project/seedcase-theme/
-        deleteOrphaned: true
+        deleteOrphaned: trueWorkflows
+
     repos: |
       seedcase-project/community
       seedcase-project/design
@@ -10,4 +36,4 @@ group:
       seedcase-project/seedcase-website
       seedcase-project/decisions
       seedcase-project/seedcase-sprout
-
+      seedcase-project/data
