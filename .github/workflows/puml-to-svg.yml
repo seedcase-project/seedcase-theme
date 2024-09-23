@@ -1,0 +1,12 @@
+name: Generate SVG from PlantUML
+
+on:
+  pull_request:
+    paths:
+      - '**.puml'
+
+jobs:
+  generate-plantuml:
+    uses: seedcase-project/.github/.github/workflows/puml-to-svg.yml@main
+    secrets:
+      github-token: ${{ secrets.GITHUB_TOKEN }}
