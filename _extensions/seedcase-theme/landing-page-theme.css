@@ -9,3 +9,12 @@ h2 {
         margin-right: -200px;
     }
 }
+
+/* only change from default is making the body content wider;
+from 800 to 900 */
+@media (min-width: 992px) {
+    .page-columns {
+        grid-template-columns: [screen-start] 1.5em [screen-start-inset] 5fr [page-start page-start-inset] 35px [body-start-outset] 35px [body-start] 1.5em [body-content-start] minmax(900px, calc(850px - 3em)) [body-content-end] 1.5em [body-end] 35px [body-end-outset] 35px [page-end-inset page-end] 5fr [screen-end-inset] 1.5em !important;
+
+    }
+}
