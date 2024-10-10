@@ -73,7 +73,6 @@ skinparam Sequence {
 skinparam State {
   FontSize 18
   FontColor $BLACK
-  FontName Fira Code
   BorderColor $BLACK
   BackgroundColor $LIGHT_GREY
 }
