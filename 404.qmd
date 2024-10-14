@@ -1,0 +1,11 @@
+---
+title: "You’ve entered the garden of missing pages 🌱"
+---
+
+Let's get back to greener grounds.
+
+👉 Go to [homepage](/).
+
+![](images/404.svg){fig-alt="An illustration of 404 with trees and mountains"}
+
+## Illustration by [Storyset](https://storyset.com/web) {.appendix}
