@@ -39,15 +39,17 @@ figcaption {
 }
 
 .about-link {
-  background-color: $secondary !important;
-  border: 1px solid $tertiary !important;
+  border: 2px solid $tertiary !important;
   border-radius: 50px !important;
   color: $primary !important;
-  font-size: 17px !important;
+  font-size: 20px !important;
+  font-weight: bold;
+  padding: 5px 15px !important;
 }
 
 .about-link:hover {
-  background-color: rgba($secondary, 0.3) !important;
+  background-color: $tertiary !important;
+  color: white !important;
 }
 
 .about-links {
