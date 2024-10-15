@@ -4,7 +4,7 @@ title: "You’ve entered the garden of missing pages"
 
 Let's get you back to greener grounds.
 
-👉 Go to [homepage](/).
+👉 Go to [homepage](/index.qmd).
 
 ![](images/404.svg){fig-alt="An illustration of 404 with trees and mountains"}
 
