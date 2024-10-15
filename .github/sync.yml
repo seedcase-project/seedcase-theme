@@ -11,6 +11,8 @@ group:
         dest: .github/pull_request_template.md
       - source: justfile
         dest: justfile
+      - source: 404.qmd
+        dest: 404.qmd
 
       # VS Code config
       - source: .vscode/
@@ -41,6 +43,8 @@ group:
       - source: _extensions/seedcase-theme/
         dest: _extensions/seedcase-project/seedcase-theme/
         deleteOrphaned: true
+      - source: 404.qmd
+        dest: 404.qmd
 
     repos: |
       seedcase-project/seedcase-sprout
