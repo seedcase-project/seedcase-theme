@@ -11,6 +11,8 @@ group:
         dest: .github/pull_request_template.md
       - source: justfile
         dest: justfile
+      - source: 404.qmd
+        dest: 404.qmd
 
       # VS Code config
       - source: .vscode/
