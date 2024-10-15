@@ -6,6 +6,6 @@ Let's get you back to greener grounds.
 
 👉 Go to [homepage](/index.qmd).
 
-![](images/404.svg){fig-alt="An illustration of 404 with trees and mountains"}
+![](/_extensions/seedcase-theme/images/404.svg){fig-alt="An illustration of 404 with trees and mountains"}
 
 ## Illustration by [Storyset](https://storyset.com/web) {.appendix}
