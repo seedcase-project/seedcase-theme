@@ -18,6 +18,12 @@ $toc-active-border: rgb(139, 139, 139); // #8b8b8b;
 $navbar-padding-y: .2rem;
 
 /*-- scss:rules --*/
+
+/* Wrap Python output so it looks nicer */
+.cell-output pre code {
+  white-space: pre-wrap;
+}
+
 .navbar {
   border-bottom: rgba($toc-active-border, 0.3) 1px solid;
 }
