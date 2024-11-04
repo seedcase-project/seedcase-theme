@@ -18,4 +18,4 @@ properties: |
   within it. At the package level, the properties include the package name and
   description, contributors, licenses, and more. At the resource level, they describe
   attributes such as the resource name, description, schema, and data fields.
-  All properties are stored in `datapackage.json` in root directory of the package.
+  All properties are stored in `datapackage.json` in the root directory of the package.
