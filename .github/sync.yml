@@ -26,9 +26,12 @@ group:
         exclude: |
           sync-files.yml
 
-      # Quarto Extension
+      # Quarto Extensions
       - source: _extensions/seedcase-theme/
         dest: _extensions/seedcase-project/seedcase-theme/
+        deleteOrphaned: true
+      - source: _extensions/debruine/
+        dest: _extensions/debruine/
         deleteOrphaned: true
 
     repos: |
@@ -39,9 +42,12 @@ group:
       seedcase-project/decisions
 
   - files:
-      # Quarto Extension
+      # Quarto Extensions
       - source: _extensions/seedcase-theme/
         dest: _extensions/seedcase-project/seedcase-theme/
+        deleteOrphaned: true
+      - source: _extensions/debruine/
+        dest: _extensions/debruine/
         deleteOrphaned: true
       - source: 404.qmd
         dest: 404.qmd
