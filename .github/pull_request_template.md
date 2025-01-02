@@ -4,15 +4,11 @@ These changes PURPOSE, because REASON.
 
 Closes #
 
-## Reviewer Focus
-
 <!-- Please delete as appropriate: -->
-This PR needs a quick/in-depth review.
-
-Focus on CHANGES.
+This PR needs a quick/an in-depth review.
 
 ## Checklist
 
 - [ ] Ran spell-check
 - [ ] Formatted Markdown
-- [ ] Rendered website locally
+- [ ] Ran `just run-all`
