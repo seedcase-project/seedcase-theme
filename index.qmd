@@ -40,3 +40,7 @@ Some text.
 More text.
 
 ![This is a caption](_extensions/seedcase-theme/logos/seedcase-logo.svg){width="200"}
+
+{{< glossary data >}}
+
+{{< glossary table=true >}}
