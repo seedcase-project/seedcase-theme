@@ -16,8 +16,13 @@ contributes:
       toc: true
       toc-location: right
       toc-depth: 3
-  
+
   project:
+    glossary:
+      path: glossary.yml
+      popup: none
+      show: true
+
     project:
       type: website
       execute-dir: project
@@ -45,7 +50,7 @@ contributes:
             href: "https://community.seedcase-project.org/guides/"
           - text: "Funded by the Novo Nordisk Foundation"
             href: https://seedcase-project.org/#acknowledgements
-    
+
     csl: vancouver.csl
 
     format: seedcase-theme-html
