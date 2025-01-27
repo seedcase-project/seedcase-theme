@@ -1,6 +1,9 @@
 @_default:
     just --list --unsorted
 
+# Run all necessary build commands.
+run-all: build-website
+
 # Generate SVG images from all PlantUML files
 generate-puml-all:
   docker run --rm -v $(pwd):/puml -w /puml ghcr.io/plantuml/plantuml:latest -tsvg "**/*.puml"
@@ -11,4 +14,4 @@ generate-puml name:
 
 # Build the website using Quarto
 build-website:
-  docker run --rm -v $(pwd):/site -w /site ghcr.io/quarto-dev/quarto:latest quarto render
+  quarto render
