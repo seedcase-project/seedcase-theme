@@ -1,5 +1,5 @@
 .glossary {
-  color: rgb(25, 100, 64);
+  color: purple;
   text-decoration: underline;
   cursor: help;
   position: relative;
@@ -17,17 +17,15 @@
   bottom: 100%;
   left: 50%;
   margin-left: -100px;
-  background-color: lightgrey;
-  color: black;
+  background-color: #333;
+  color: white;
   padding: 5px;
   border-radius: 6px;
 }
-
 /* show on click */
 .glossary:active .def {
   display: inline-block;
 }
-
 /* triangle arrow */
 .glossary:active .def::after {
   content: ' ';
@@ -51,5 +49,8 @@
 
 .glossary_table tr {
   border-bottom: 1px solid #ddd;
-  border-top: 1px solid #ddd;
+}
+
+.glossary_table tr:nth-child(even) {
+  background-color: #99999933;
 }
