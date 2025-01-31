@@ -14,106 +14,106 @@ $primary: rgb(25, 100, 64); // #196440
 $secondary: rgb(198, 240, 211); // #c6f0d3
 $tertiary: rgb(72, 220, 118); // #48dc76
 $toc-active-border: rgb(139, 139, 139); // #8b8b8b;
-
 $navbar-padding-y: .2rem;
+$mermaid-edge-color: rgb(139, 139, 139);
 
 /*-- scss:rules --*/
 
 /* Wrap Python output so it looks nicer */
 .cell-output pre code {
-  white-space: pre-wrap;
+    white-space: pre-wrap;
 }
 
 .navbar {
-  border-bottom: rgba($toc-active-border, 0.3) 1px solid;
+    border-bottom: rgba($toc-active-border, 0.3) 1px solid;
 }
 
 svg {
-  display: block;
-  max-width: 100%;
-  margin: 0 auto;
-  height: auto !important;
-  width: auto !important;
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto !important;
+    width: auto !important;
 }
 
 li {
-  margin: 5px 0;
+    margin: 5px 0;
 }
 
 figcaption {
-  text-align: center;
+    text-align: center;
 }
 
 .about-link {
-  border: 2px solid $tertiary !important;
-  border-radius: 50px !important;
-  color: $primary !important;
-  font-size: 20px !important;
-  font-weight: bold;
-  padding: 5px 15px !important;
+    border: 2px solid $tertiary !important;
+    border-radius: 50px !important;
+    color: $primary !important;
+    font-size: 20px !important;
+    font-weight: bold;
+    padding: 5px 15px !important;
 }
 
 .about-link:hover {
-  background-color: $tertiary !important;
-  color: white !important;
+    background-color: $tertiary !important;
+    color: white !important;
 }
 
 .about-links {
-  justify-content: left !important;
-  padding: 10px 0px 0px 0px !important;
+    justify-content: left !important;
+    padding: 10px 0px 0px 0px !important;
 }
 
 .landing-page-block {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-left: 30px;
-  margin-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 @media(min-width: 900px) {
-  .landing-page-block {
-    margin-left: 50px;
-    margin-right: 50px;
-  }
+    .landing-page-block {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
 }
 
 @media (min-width: 1200px) {
-  .landing-page-block {
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+    .landing-page-block {
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .hero-banner {
-  position: relative;
-  background: rgba($secondary, 0.5);
-  display: flex;
-  justify-content: center;
-  padding-bottom: 30px;
+    position: relative;
+    background: rgba($secondary, 0.5);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
 }
 
 .hero-banner .landing-page-block {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 .hero-text>h2,
 .landing-page-block>h2 {
-  margin-top: 0.5rem;
-  border-bottom: none;
+    margin-top: 0.5rem;
+    border-bottom: none;
 }
 
 .landing-page-card {
-  border-radius: 12px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
-  background-color: rgba($secondary, 0.3);
-  border: none;
-  padding: 5px 20px 10px 20px;
-  margin-bottom: 40px;
-  justify-content: start !important;
+    border-radius: 12px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    background-color: rgba($secondary, 0.3);
+    border: none;
+    padding: 5px 20px 10px 20px;
+    margin-bottom: 40px;
+    justify-content: start !important;
 }
 
 .navbar-logo {
-  max-height: 38px;
+    max-height: 38px;
 }
