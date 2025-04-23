@@ -17,10 +17,9 @@ website:
       - index.qmd
 
 # format:
-#   seedcase-html: 
+#   seedcase-html:
     # include-before-body:
       # - "includes/site-counter.html"
-      # - "includes/contribute.html"
 
 editor:
   markdown:
