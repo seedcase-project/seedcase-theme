@@ -1,50 +1,54 @@
 group:
-    - files:
-          # Misc
-          - source: .github/CODEOWNERS
-            dest: .github/CODEOWNERS
-          - source: .editorconfig
-            dest: .editorconfig
-          - source: .gitignore
-            dest: .gitignore
-          - source: .github/pull_request_template.md
-            dest: .github/pull_request_template.md
-          - source: justfile
-            dest: justfile
-          - source: 404.qmd
-            dest: 404.qmd
+  - files:
+      # Misc
+      - source: .github/CODEOWNERS
+        dest: .github/CODEOWNERS
+      - source: .editorconfig
+        dest: .editorconfig
+      - source: .gitignore
+        dest: .gitignore
+      - source: .github/pull_request_template.md
+        dest: .github/pull_request_template.md
+      - source: .typos.toml
+        dest: .typos.toml
+      - source: justfile
+        dest: justfile
+      - source: 404.qmd
+        dest: 404.qmd
 
-          # VS Code config
-          - source: .vscode/
-            dest: .vscode/
-            deleteOrphaned: true
+      # VS Code config
+      - source: .vscode/
+        dest: .vscode/
+        deleteOrphaned: true
 
-          # Workflows
-          - source: .github/workflows/
-            dest: .github/workflows/
-            deleteOrphaned: true
-            exclude: |
-                sync-files.yml
+      # Workflows
+      - source: .github/workflows/
+        dest: .github/workflows/
+        deleteOrphaned: true
+        exclude: |
+          sync-files.yml
 
-          # Quarto Extensions
-          - source: _extensions/seedcase-theme/
-            dest: _extensions/seedcase-project/seedcase-theme/
-            deleteOrphaned: true
+      # Quarto Extensions
+      - source: _extensions/seedcase-theme/
+        dest: _extensions/seedcase-project/seedcase-theme/
+        deleteOrphaned: true
 
-      repos: |
-          seedcase-project/community
-          seedcase-project/design
-          seedcase-project/team
-          seedcase-project/seedcase-website
-          seedcase-project/decisions
+    repos: |
+      seedcase-project/community
+      seedcase-project/design
+      seedcase-project/team
+      seedcase-project/seedcase-website
+      seedcase-project/decisions
+      seedcase-project/guidebook
+      seedcase-project/glossary
 
-    - files:
-          # Quarto Extensions
-          - source: _extensions/seedcase-theme/
-            dest: _extensions/seedcase-project/seedcase-theme/
-            deleteOrphaned: true
-          - source: 404.qmd
-            dest: 404.qmd
+  - files:
+      # Quarto Extensions
+      - source: _extensions/seedcase-theme/
+        dest: _extensions/seedcase-project/seedcase-theme/
+        deleteOrphaned: true
+      - source: 404.qmd
+        dest: 404.qmd
 
-      repos: |
-          seedcase-project/seedcase-sprout
+    repos: |
+      seedcase-project/seedcase-sprout
