@@ -1,12 +1,9 @@
 /*-- scss:defaults --*/
 
-@import url('https://fonts.googleapis.com/css2?family=Noto Sans');
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code');
-@import url('https://fonts.googleapis.com/css2?family=Maven+Pro');
+@import url('https://fonts.bunny.net/css?family=poppins:400|roboto-mono:400');
 
-$font-family-sans-serif: "Maven Pro", sans-serif;
-$font-family-monospace: "Fira Code", monospace;
-$headings-font-family: "Noto Sans", sans-serif;
+$font-family-sans-serif: "poppins", sans-serif;
+$font-family-monospace: "roboto-mono", monospace;
 
 /* brand colour #003224 - the one below is a slightly lighter version of the brand colour */
 /* using rgb to be able to use rgba, i.e., opacity */
