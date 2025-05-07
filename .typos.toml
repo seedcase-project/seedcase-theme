@@ -3,5 +3,9 @@ extend-exclude = [
   "*.css",
   ".quarto/*",
   "_site/*",
+  "*.svg"
 ]
 
+[default.extend-words]
+TRE = "TRE" # trusted research environment
+SME = "SME" # small and medium-sized enterprises
