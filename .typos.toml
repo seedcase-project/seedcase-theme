@@ -3,5 +3,6 @@ extend-exclude = [
   "*.css",
   ".quarto/*",
   "_site/*",
+  "*.svg"
 ]
 
