@@ -9,8 +9,6 @@ group:
         dest: .gitignore
       - source: .github/pull_request_template.md
         dest: .github/pull_request_template.md
-      - source: .typos.toml
-        dest: .typos.toml
       - source: justfile
         dest: justfile
       - source: 404.qmd
@@ -40,7 +38,6 @@ group:
       seedcase-project/seedcase-website
       seedcase-project/decisions
       seedcase-project/guidebook
-      seedcase-project/glossary
 
   - files:
       # Quarto Extensions

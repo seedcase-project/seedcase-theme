@@ -12,6 +12,7 @@ jobs:
       - uses: actions/create-github-app-token@v2
         id: app-token
         with:
+          owner: ${{ github.repository_owner }}
           app-id: ${{ vars.SYNC_FILES_APP_ID }}
           private-key: ${{ secrets.SYNC_FILES_TOKEN }}
 
@@ -20,14 +21,21 @@ jobs:
         with:
           token: ${{ steps.app-token.outputs.token }}
 
+        # Taken from https://github.com/actions/create-github-app-token/
+      - name: Get GitHub App User ID
+        id: get-user-id
+        run: echo "user-id=$(gh api "/users/${{ steps.app-token.outputs.app-slug }}[bot]" --jq .id)" >> "$GITHUB_OUTPUT"
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+
       - name: Run GitHub File Sync
         uses: BetaHuhn/repo-file-sync-action@v1
         with:
-          GH_PAT: ${{ steps.app-token.outputs.token }}
+          GH_INSTALLATION_TOKEN: ${{ steps.app-token.outputs.token }}
           ASSIGNEES: lwjohnst86
           IS_FINE_GRAINED: true
-          GIT_USERNAME: github-actions[bot]
-          GIT_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+          GIT_USERNAME: ${{ steps.app-token.outputs.app-slug }}[bot]
+          GIT_EMAIL: ${{ steps.get-user-id.outputs.user-id }}+${{ steps.app-token.outputs.app-slug }}[bot]@users.noreply.github.com
           COMMIT_PREFIX: "chore(sync): :hammer: "
-          BRANCH_PREFIX: chore
-          TEAM_REVIEWERS: admin
+          COMMIT_EACH_FILE: false
+          BRANCH_PREFIX: chore/seedcase-theme-sync
