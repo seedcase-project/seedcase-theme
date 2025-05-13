@@ -57,3 +57,24 @@ def hello_world():
 {{< glossary properties >}}
 
 {{< glossary table=true >}}
+
+## Simple mermaid diagram
+
+::: column-page
+```{mermaid}
+%%| fig-cap: "Simple mermaid diagram"
+flowchart TB
+    user(["User<br>[person]"])
+    subgraph sprout [Python package]
+        package["Data package functions<br>[Python]<br><br>Create, manage, and check a data package and its 'properties' (metadata)."]
+    end
+    output[("Filesystem<br><br>Stored data and metadata on a local or server filesystem.")]
+
+    user --> sprout:::system
+    package --> metadata
+    sprout --> output:::external
+
+    classDef system fill:none
+    classDef external fill:lightgrey
+```
+:::
