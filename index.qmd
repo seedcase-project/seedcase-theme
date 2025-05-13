@@ -4,6 +4,7 @@ title: "Welcome"
 
 ## Introduction
 
+This is the test landing page! With a [link](https://duckduckgo.com/)! And an emoji :grin:
 
 And [longer reference to another header](index.qmd#another) in the same document.
 
@@ -33,7 +34,7 @@ A list:
 A callout block:
 
 ::: callout-tip
-### Testing
+### Header within callout block
 
 Some text.
 :::
