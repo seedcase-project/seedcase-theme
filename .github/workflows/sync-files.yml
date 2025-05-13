@@ -23,7 +23,7 @@ jobs:
       - name: Run GitHub File Sync
         uses: BetaHuhn/repo-file-sync-action@v1
         with:
-          GH_PAT: ${{ steps.app-token.outputs.token }}
+          GH_INSTALLATION_TOKEN: ${{ steps.app-token.outputs.token }}
           ASSIGNEES: lwjohnst86
           IS_FINE_GRAINED: true
           GIT_USERNAME: github-actions[bot]
