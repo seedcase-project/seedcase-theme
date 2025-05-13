@@ -44,6 +44,15 @@ More text.
 
 ![This is a caption](_extensions/seedcase-theme/logos/seedcase-logo.svg){width="200"}
 
+Here's some `inline code` in a sentence.
+
+A code block:
+
+```python
+def hello_world():
+    print("Hello, world!")
+```
+
 {{< glossary data >}}
 
 {{< glossary table=true >}}
