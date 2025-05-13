@@ -54,5 +54,6 @@ def hello_world():
 ```
 
 {{< glossary data >}}
+{{< glossary properties >}}
 
 {{< glossary table=true >}}
