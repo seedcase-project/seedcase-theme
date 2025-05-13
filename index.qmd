@@ -4,17 +4,20 @@ title: "Welcome"
 
 ## Introduction
 
-This is the test landing page! With a [link](https://google.com)! :grin:
+This is the test landing page! With a [link](https://duckduckgo.com/)!
+And an emoji :grin:
 
-Random text:
-The shoes had been there for as long as anyone could remember. In fact, it was
-difficult for anyone to come up with a date they had first appeared. It had
-seemed they'd always been there and yet they seemed so out of place. Why nobody
-had removed them was a question that had been asked time and again, but while
-they all thought it, nobody had ever found the energy to actually do it. So, the
-shoes remained on the steps, out of place in one sense, but perfectly normal in
-another.
+And [longer reference to another header](index.qmd#another) in the same
+document.
 
+Random text: The shoes had been there for as long as anyone could
+remember. In fact, it was difficult for anyone to come up with a date
+they had first appeared. It had seemed they'd always been there and yet
+they seemed so out of place. Why nobody had removed them was a question
+that had been asked time and again, but while they all thought it,
+nobody had ever found the energy to actually do it. So, the shoes
+remained on the steps, out of place in one sense, but perfectly normal
+in another.
 
 Here's a table:
 
@@ -25,14 +28,14 @@ Here's a table:
 
 A list:
 
-1. first
-2. second
-3. third
+1.  first
+2.  second
+3.  third
 
 A callout block:
 
 ::: callout-tip
-### Testing
+### Header within callout block
 
 Some text.
 :::
@@ -41,8 +44,39 @@ Some text.
 
 More text.
 
-![This is a caption](_extensions/seedcase-theme/logos/seedcase-logo.svg){width="200"}
+![This is a
+caption](_extensions/seedcase-theme/logos/seedcase-logo.svg){width="200"}
 
-{{< glossary data >}}
+Here's some `inline code` in a sentence.
+
+A code block:
+
+``` python
+def hello_world():
+    print("Hello, world!")
+```
+
+{{< glossary data >}} {{< glossary properties >}}
 
 {{< glossary table=true >}}
+
+## Simple mermaid diagram
+
+::: column-page
+```{mermaid}
+%%| fig-cap: "Simple mermaid diagram"
+flowchart TB
+    user(["User<br>[person]"])
+    subgraph sprout [Python package]
+        package["Data package functions<br>[Python]<br><br>Create, manage, and check a data package and its 'properties' (metadata)."]
+    end
+    output[("Filesystem<br><br>Stored data and metadata on a local or server filesystem.")]
+
+    user --> sprout:::system
+    package --> metadata
+    sprout --> output:::external
+
+    classDef system fill:none
+    classDef external fill:lightgrey
+```
+:::
