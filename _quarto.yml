@@ -16,8 +16,11 @@ website:
     contents:
       - index.qmd
 
-# format:
-#   seedcase-html:
+format:
+  seedcase-theme-html:
+    theme:
+      - brand
+      - custom-styles.scss
     # include-before-body:
       # - "includes/site-counter.html"
 
