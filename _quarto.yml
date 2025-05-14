@@ -20,6 +20,7 @@ format:
   seedcase-theme-html:
     theme:
       - brand
+      - custom-styles.scss
     # include-before-body:
       # - "includes/site-counter.html"
 
