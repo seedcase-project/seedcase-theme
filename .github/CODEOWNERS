@@ -4,10 +4,6 @@
 # Ignore these so we don't get added to sync PRs
 /.github/
 /.vscode/
-/.devcontainer/
 justfile
 .editorconfig
 .gitignore
-ruff.toml
-pyproject.toml
-poetry.lock
