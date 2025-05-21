@@ -2,6 +2,7 @@
     just --list --unsorted
 
 # Run all necessary build commands.
+run-all: check-spelling build-website
 
 # Install the pre-commit hooks
 install-precommit:
