@@ -1,5 +1,5 @@
-meta: 
-  name: 
+meta:
+  name:
     full: Seedcase Project
     short: Seedcase
   link:
@@ -20,7 +20,7 @@ typography:
     - family: noto sans
       source: "bunny"
       # other weights are used inexplicitly for e.g., bold and table headers
-      weight: [300, 500, 600] 
+      weight: [300, 500, 600]
     - family: poppins
       source: "bunny"
       weight: 400
@@ -29,7 +29,7 @@ typography:
   base:
     family: noto sans
     weight: 300
-  headings: 
+  headings:
     family: poppins
     weight: 400
   monospace: roboto mono
@@ -140,4 +140,3 @@ defaults:
       .callout-body {
           font-weight: 300 !important;
       }
-  

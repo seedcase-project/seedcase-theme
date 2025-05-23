@@ -5,6 +5,8 @@ group:
         dest: .github/CODEOWNERS
       - source: .editorconfig
         dest: .editorconfig
+      - source: .pre-commit-config.yaml
+        dest: .pre-commit-config.yaml
       - source: .gitignore
         dest: .gitignore
       - source: .github/pull_request_template.md
