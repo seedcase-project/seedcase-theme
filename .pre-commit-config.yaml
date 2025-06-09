@@ -12,7 +12,7 @@ repos:
       - id: end-of-file-fixer
 
   - repo: https://github.com/commitizen-tools/commitizen
-    rev: v4.8.2
+    rev: v4.8.3
     hooks:
       - id: commitizen
 
@@ -20,6 +20,6 @@ repos:
   # sub-packages, which confuses pre-commit when it tries to find the latest
   # version
   - repo: https://github.com/adhtruong/mirrors-typos
-    rev: v1.32.0
+    rev: v1.33.1
     hooks:
       - id: typos
