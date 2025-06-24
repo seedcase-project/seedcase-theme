@@ -1,12 +1,11 @@
 title: seedcase-theme
 author: Luke W. Johnston
-version: 1.0.0
+version: 1.0.1
 quarto-required: ">=1.2.0"
 contributes:
   formats:
     common:
       shortcodes:
-        - debruine/glossary
         - quarto-ext/fontawesome
     html:
       from: markdown+emoji
@@ -15,11 +14,6 @@ contributes:
       toc-depth: 3
 
   project:
-    glossary:
-      path: glossary.yml
-      popup: none
-      show: true
-
     project:
       type: website
       execute-dir: project

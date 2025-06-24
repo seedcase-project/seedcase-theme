@@ -56,10 +56,6 @@ def hello_world():
     print("Hello, world!")
 ```
 
-{{< glossary data >}} {{< glossary properties >}}
-
-{{< glossary table=true >}}
-
 ## Simple mermaid diagram
 
 ::: column-page
