@@ -40,7 +40,6 @@ group:
       seedcase-project/seedcase-website
       seedcase-project/decisions
       seedcase-project/guidebook
-      seedcase-project/template-data-package
 
   - files:
       # Quarto Extensions
