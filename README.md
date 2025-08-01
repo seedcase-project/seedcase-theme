@@ -21,13 +21,13 @@ repositories.
 To install the extension, use:
 
 ``` bash
-quarto add rostools/rostools-theme
+quarto add seedcase-project/seedcase-theme
 ```
 
-To update the `rostools-theme`, run:
+To update the `seedcase-theme`, run:
 
 ``` bash
-quarto update rostools/rostools-theme
+quarto update seedcase-project/seedcase-theme
 ```
 
 ## Using
