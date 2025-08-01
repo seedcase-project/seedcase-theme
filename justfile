@@ -1,8 +1,11 @@
 @_default:
     just --list --unsorted
 
-# Run all necessary build commands.
-run-all: check-spelling check-commits build-website
+# This hidden recipe (with `_` prefix) is used to group the checks together
+@_checks: check-spelling check-commits
+
+# Run all build-related recipes in the justfile
+run-all: _checks test-theme build-readme
 
 # Install the pre-commit hooks
 install-precommit:
@@ -13,11 +16,7 @@ install-precommit:
   # Update versions of pre-commit hooks
   uvx pre-commit autoupdate
 
-# Check spelling
-check-spelling:
-  uvx typos
-
-# Run checks on commits with non-main branches
+# Check the commit messages on the current branch that are not on the main branch
 check-commits:
   #!/bin/zsh
   branch_name=$(git rev-parse --abbrev-ref HEAD)
@@ -26,9 +25,18 @@ check-commits:
   then
     uvx --from commitizen cz check --rev-range main..HEAD
   else
-    echo "Can't either be on ${branch_name} or have more than ${number_of_commits}."
+    echo "On `main` or current branch doesn't have any commits."
   fi
 
-# Build the website using Quarto
-build-website:
-  quarto render
+# Check for spelling errors in files
+check-spelling:
+  uvx typos
+
+# Test the theme by building the website using Quarto
+test-theme:
+  uvx --from quarto quarto render
+
+# Re-build the README file from the Quarto version
+build-readme:
+  # Use `uvx` in order to use Python and jupyter3
+  uvx --from quarto quarto render README.qmd --to gfm
