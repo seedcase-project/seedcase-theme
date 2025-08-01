@@ -18,7 +18,7 @@ To contribute to `seedcase-theme`, you first need to install
 [uv](https://docs.astral.sh/uv/) and
 [justfile](https://just.systems/man/en/packages.html). We use uv and
 justfile to manage our project, such as to run checks and test the
-template. Both the uv and justfile websites have a more detailed guide
+theme. Both the uv and justfile websites have a more detailed guide
 on using uv, but below are some simple instructions to get you started.
 
 It's easiest to install uv and justfile using
