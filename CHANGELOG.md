@@ -1,3 +1,9 @@
+## 0.4.0 (2025-08-01)
+
+### Feat
+
+- :memo: add description and homepage URL to brand meta (#146)
+
 ## 0.3.0 (2025-08-01)
 
 ### Feat
