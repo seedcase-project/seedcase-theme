@@ -1,8 +1,11 @@
 @_default:
     just --list --unsorted
 
+@_build: build-readme build-website
+@_check: check-spelling check-commits
+
 # Run all necessary build commands.
-run-all: check-spelling check-commits build-website
+run-all: _check _build
 
 # Install the pre-commit hooks
 install-precommit:
@@ -32,3 +35,7 @@ check-commits:
 # Build the website using Quarto
 build-website:
   quarto render
+
+# Re-build the README file from the Quarto version
+build-readme:
+  uvx --from quarto quarto render README.qmd --to gfm
