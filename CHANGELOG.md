@@ -1,3 +1,9 @@
+## 0.3.0 (2025-08-01)
+
+### Feat
+
+- :lipstick: lighter weight to dropdown items, were too thick (#145)
+
 ## 0.2.0 (2025-08-01)
 
 ### Feat
