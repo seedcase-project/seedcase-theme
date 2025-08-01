@@ -12,6 +12,10 @@ website:
     left:
       - text: "Welcome"
         href: index.qmd
+      - text: "Menu"
+        menu:
+          - href: index.qmd
+            text: "Home"
   sidebar:
     contents:
       - index.qmd
