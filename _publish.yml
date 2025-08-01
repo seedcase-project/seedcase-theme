@@ -1,5 +1,0 @@
-- source: project
-  netlify:
-    # TODO: Include correct ID
-    - id: ""
-      url: "https://NAME-seedcase-project.netlify.app"
