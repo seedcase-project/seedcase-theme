@@ -1,3 +1,4 @@
+# Used to test out the theme
 project:
   type: seedcase-theme
 
@@ -21,8 +22,6 @@ format:
     theme:
       - brand
       - custom-styles.scss
-    # include-before-body:
-      # - "includes/site-counter.html"
 
 editor:
   markdown:
