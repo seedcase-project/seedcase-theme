@@ -19,7 +19,7 @@ typography:
   fonts:
     - family: noto sans
       source: "bunny"
-      # other weights are used inexplicitly for e.g., bold and table headers
+      # other weights are used for e.g., bold and table headers
       weight: [300, 500, 600]
     - family: poppins
       source: "bunny"
@@ -138,5 +138,10 @@ defaults:
       }
 
       .callout-body {
+          font-weight: 300 !important;
+      }
+
+      /* Dropdown items on navbar default to 400 weight, but we want them to be lighter. */
+      .dropdown-item {
           font-weight: 300 !important;
       }
