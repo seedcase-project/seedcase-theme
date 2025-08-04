@@ -1,0 +1,70 @@
+---
+title: "seedcase-theme: Quarto extension for Seedcase Projects"
+format: gfm
+gh:
+  org: seedcase-project
+  repo: seedcase-theme
+---
+
+{{< include /_badges.qmd >}}
+
+This repository contains Quarto shortcodes, embedded extensions, and
+style theming that is used by all Seedcase Project Quarto-based
+repositories.
+
+## Installing
+
+To install the extension, use:
+
+``` bash
+quarto add seedcase-project/seedcase-theme
+```
+
+To update the `seedcase-theme`, run:
+
+``` bash
+quarto update seedcase-project/seedcase-theme
+```
+
+## Using
+
+After installing the extension, add the below yaml key-value
+pair to the `_quarto.yml` file:
+
+``` yaml
+format: seedcase-theme-html
+```
+
+Or for project-level configurations:
+
+``` yaml
+project:
+  type: seedcase-theme
+```
+
+See this repository's
+[`_quarto.yml`](https://github.com/{{< meta gh.org >}}/{{< meta gh.repo >}}/blob/main/_quarto.yml)
+and
+[`index.qmd`](https://github.com/{{< meta gh.org >}}/{{< meta gh.repo >}}/blob/main/index.qmd)
+files for examples of how you would use this extension.
+
+## Contributing
+
+Check out our [contributing document](CONTRIBUTING.md) for information
+on how to contribute to the project, including how to set up your
+development environment.
+
+Please note that this project is released with a [Contributor Code of
+Conduct](https://github.com/{{< meta gh.org >}}/.github/blob/main/CODE_OF_CONDUCT.md).
+By participating in this project you agree to abide by its terms.
+
+## Licensing
+
+This project is licensed under the [MIT
+License](https://github.com/{{< meta gh.org >}}/{{< meta gh.repo >}}/blob/main/LICENSE.md).
+
+## Changelog
+
+For a list of changes, see our
+[changelog](https://{{< meta gh.repo >}}.seedcase-project.org/docs/releases/)
+page.

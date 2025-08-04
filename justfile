@@ -2,10 +2,10 @@
     just --list --unsorted
 
 # This hidden recipe (with `_` prefix) is used to group the checks together
-@_checks: check-spelling check-commits
+@_check: check-spelling check-commits
 
-# Run all build-related recipes in the justfile
-run-all: _checks test-theme build-readme
+# Run all check, test, and build commands.
+run-all: _check test-theme build-readme
 
 # Install the pre-commit hooks
 install-precommit:
