@@ -28,7 +28,7 @@ quarto update seedcase-project/seedcase-theme
 
 ## Using
 
-This extension After add the extension and add the below yaml key-value
+Add the extension and add the below yaml key-value
 pair to the `_quarto.yml` file:
 
 ``` yaml
