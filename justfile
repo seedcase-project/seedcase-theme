@@ -18,14 +18,15 @@ install-precommit:
 
 # Check the commit messages on the current branch that are not on the main branch
 check-commits:
-  #!/bin/zsh
+  #!/usr/bin/env bash
   branch_name=$(git rev-parse --abbrev-ref HEAD)
   number_of_commits=$(git rev-list --count HEAD ^main)
   if [[ ${branch_name} != "main" && ${number_of_commits} -gt 0 ]]
   then
+    # If there is an issue, run `uv tool update-shell`.
     uvx --from commitizen cz check --rev-range main..HEAD
   else
-    echo "On `main` or current branch doesn't have any commits."
+    echo "On 'main' or current branch doesn't have any commits."
   fi
 
 # Check for spelling errors in files
