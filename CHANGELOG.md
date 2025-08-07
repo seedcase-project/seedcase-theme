@@ -1,3 +1,9 @@
+## 0.4.1 (2025-08-07)
+
+### Refactor
+
+- :recycle: pinned navbar by default (#150)
+
 ## 0.4.0 (2025-08-01)
 
 ### Feat
