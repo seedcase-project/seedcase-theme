@@ -27,6 +27,7 @@ contributes:
         location: navbar
         type: textbox
       navbar:
+        pinned: true
         background: light
         logo: logos/navbar-logo-seedcase-project.svg
         logo-alt: "Seedcase Project logo: Main page"
@@ -43,7 +44,5 @@ contributes:
             href: https://seedcase-project.org/#acknowledgements
 
     csl: vancouver.csl
-
     format: seedcase-theme-html
-
     brand: _brand.yml
