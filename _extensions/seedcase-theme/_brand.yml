@@ -152,3 +152,7 @@ defaults:
       .dropdown-item {
           font-weight: 300 !important;
       }
+
+      code {
+        color: $primary;
+      }
