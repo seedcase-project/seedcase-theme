@@ -76,7 +76,7 @@ defaults:
           font-size: 20px !important;
           font-weight: bold;
           padding: 5px 15px !important;
-          margin: 0px 10px 10px 0px;
+          margin: 0px 10px 10px 10px;
       }
 
       .about-link:hover {
