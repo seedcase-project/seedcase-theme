@@ -1,3 +1,9 @@
+## 0.5.0 (2025-09-22)
+
+### Feat
+
+- :sparkles: add logos and font for `check-datapackage` (#164)
+
 ## 0.4.2 (2025-09-22)
 
 ### Fix
