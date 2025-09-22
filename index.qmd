@@ -7,6 +7,10 @@ title: "Welcome"
 This is the test landing page! With a [link](https://duckduckgo.com/)!
 And an emoji :grin:
 
+[An about link button](nonexisting-link){.btn .about-link}
+[Another one next to it](nonexisting-link){.btn .about-link}
+
+
 And [longer reference to another header](index.qmd#another) in the same
 document.
 
