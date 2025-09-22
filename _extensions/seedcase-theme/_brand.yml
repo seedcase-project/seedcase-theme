@@ -123,8 +123,8 @@ defaults:
           flex-direction: row;
       }
 
-      .hero-text>h2,
-      .landing-page-block>h2 {
+      .hero-text h2,
+      .landing-page-block h2 {
           margin-top: 0.5rem;
           border-bottom: none;
       }
