@@ -1,3 +1,9 @@
+## 0.4.2 (2025-09-22)
+
+### Fix
+
+- :lipstick: apply h2 styles to all descendants instead of only direct children (#162)
+
 ## 0.4.1 (2025-08-07)
 
 ### Refactor
