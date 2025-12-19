@@ -3,3 +3,9 @@
 // See the link below for an overview of the available variables
 // and how to customize them.
 // https://quarto.org/docs/output-formats/html-themes.html#sass-variables
+
+// Color built-ins the same as regular variables
+// since we sometimes use built-in names as parameter names
+span.bu {
+  color: inherit !important
+}
