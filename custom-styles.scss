@@ -9,3 +9,8 @@
 span.bu {
   color: inherit !important
 }
+// Color terminal executables the same as regular variables
+// since the default has low contrast and is hard to see
+span.ex {
+  color: inherit !important
+}
