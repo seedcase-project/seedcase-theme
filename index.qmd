@@ -44,7 +44,7 @@ A callout block:
 Some text.
 :::
 
-## Another
+## Another header with `code span`
 
 More text.
 
