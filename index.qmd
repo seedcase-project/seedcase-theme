@@ -36,6 +36,9 @@ A list:
 2.  second
 3.  third
 
+![This is a
+caption](_extensions/seedcase-theme/logos/seedcase-logo.svg){width="200"}
+
 A callout block:
 
 ::: callout-tip
@@ -44,12 +47,9 @@ A callout block:
 Some text.
 :::
 
-## Another
+## Another header with `code span`
 
-More text.
 
-![This is a
-caption](_extensions/seedcase-theme/logos/seedcase-logo.svg){width="200"}
 
 Here's some `inline code` in a sentence.
 
