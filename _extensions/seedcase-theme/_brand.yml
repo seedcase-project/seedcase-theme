@@ -17,6 +17,7 @@ color:
     dark-green: "#196440"
     vibrant-green: "#48DC76"
     light-grey: "#F8F9FA"
+    code-bg: "#E9ECEFA6"
   primary: dark-green
   tertiary: vibrant-green
   light: light-grey
@@ -44,6 +45,10 @@ defaults:
   bootstrap:
     defaults:
       mermaid-edge-color: "#8B8B8B"
+      # Set code background colour variable so all inline code has the same colour
+      # including headers with inline code.
+      # This colour is the default background colour for inline code.
+      code-bg: var(--brand-code-bg)
     rules: |
       .cell-output pre code {
         white-space: pre-wrap;
