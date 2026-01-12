@@ -16,6 +16,7 @@ color:
     logo-green: "#024639"
     dark-green: "#196440"
     vibrant-green: "#48DC76"
+    dark-grey: "#8B8B8B"
     light-grey: "#F8F9FA"
     code-bg: "#E9ECEFA6"
   primary: dark-green
@@ -44,7 +45,7 @@ typography:
 defaults:
   bootstrap:
     defaults:
-      mermaid-edge-color: "#8B8B8B"
+      mermaid-edge-color: var(--brand-dark-grey)
       # Set code background colour variable so all inline code has the same colour
       # including headers with inline code.
       # This colour is the default background colour for inline code.
