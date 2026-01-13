@@ -47,9 +47,15 @@ A callout block:
 Some text.
 :::
 
-## Another header with `code span`
+## Another header with `code`
 
+### H3 with `code`
 
+#### H4 with `code`
+
+##### H5 with `code`
+
+###### H6 with `code`
 
 Here's some `inline code` in a sentence.
 
