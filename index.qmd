@@ -37,7 +37,7 @@ A list:
 3.  third
 
 ![This is a
-caption](_extensions/seedcase-theme/logos/seedcase-logo.svg){width="200"}
+caption](_extensions/seedcase-theme/logos/seedcase/icon.svg){width="200"}
 
 A callout block:
 
