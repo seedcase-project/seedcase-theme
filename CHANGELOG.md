@@ -1,3 +1,9 @@
+## 0.6.0 (2026-01-13)
+
+### Feat
+
+- :sparkles: add logo fonts for Flower, Propagate, and Garden (#182)
+
 ## 0.5.0 (2025-09-22)
 
 ### Feat
