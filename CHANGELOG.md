@@ -1,3 +1,9 @@
+## 0.6.2 (2026-01-14)
+
+### Refactor
+
+- 🚚 move logo out of `extension.yml` (#184)
+
 ## 0.6.1 (2026-01-14)
 
 ### Refactor
