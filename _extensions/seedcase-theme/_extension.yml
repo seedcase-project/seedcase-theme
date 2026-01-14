@@ -20,7 +20,7 @@ contributes:
 
     website:
       page-navigation: true
-      favicon: favicon/favicon.ico
+      favicon: _extensions/seedcase-theme/logos/seedcase/icon.svg
       repo-branch: main
       repo-actions: [edit, issue, source]
       search:
