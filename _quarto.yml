@@ -7,6 +7,8 @@ website:
   site-url: "https://seedcase-project.github.io/seedcase-theme/"
   repo-url: "https://github.com/seedcase-project/seedcase-theme"
   navbar:
+    logo: _extensions/seedcase-theme/logos/seedcase/icon.svg
+    logo-alt: "Seedcase logo"
     left:
       - text: "Welcome"
         href: index.qmd
