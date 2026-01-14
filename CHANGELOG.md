@@ -1,3 +1,9 @@
+## 0.6.1 (2026-01-14)
+
+### Refactor
+
+- 🚚 restructure logo folders and file names (#183)
+
 ## 0.6.0 (2026-01-13)
 
 ### Feat
