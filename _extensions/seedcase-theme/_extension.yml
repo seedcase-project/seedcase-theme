@@ -29,8 +29,6 @@ contributes:
       navbar:
         pinned: true
         background: light
-        logo: logos/navbar-logo-seedcase-project.svg
-        logo-alt: "Seedcase Project logo: Main page"
       page-footer:
         border: true
         center:
