@@ -15,6 +15,7 @@ dev/
 # Quarto
 /.quarto/
 docs/.quarto/
+**/*.quarto_ipynb
 
 # Website generation
 _site
