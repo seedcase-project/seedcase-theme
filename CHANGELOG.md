@@ -1,3 +1,9 @@
+## 0.6.4 (2026-01-27)
+
+### Refactor
+
+- 💄 grey navbar border using Quarto css variable (#190)
+
 ## 0.6.3 (2026-01-15)
 
 ### Fix
