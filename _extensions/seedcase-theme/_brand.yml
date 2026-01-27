@@ -56,7 +56,7 @@ defaults:
       }
 
       .navbar {
-          border-bottom: rgba($toc-active-border, 0.3) 1px solid;
+        border-bottom: var(--quarto-scss-export-gray-300) 1px solid;
       }
 
       svg {
