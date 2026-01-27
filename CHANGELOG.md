@@ -1,3 +1,9 @@
+## 0.7.0 (2026-01-27)
+
+### Feat
+
+- :busts_in_silhouette: add all contributors to `authors` (#191)
+
 ## 0.6.4 (2026-01-27)
 
 ### Refactor
