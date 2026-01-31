@@ -24,7 +24,6 @@ format:
   seedcase-theme-html:
     theme:
       - brand
-      - custom-styles.scss
 
 editor:
   markdown:
