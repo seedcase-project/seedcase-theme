@@ -1,3 +1,9 @@
+## 0.7.1 (2026-01-31)
+
+### Fix
+
+- :bug: CSS was wrongly placed in root `.scss` file (#192)
+
 ## 0.7.0 (2026-01-27)
 
 ### Feat
