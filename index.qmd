@@ -1,5 +1,6 @@
 ---
 title: "Welcome"
+description: "This is an example page to show how the styling works."
 ---
 
 ## Introduction
