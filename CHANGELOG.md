@@ -1,3 +1,9 @@
+## 0.8.0 (2026-02-20)
+
+### Feat
+
+- :lipstick: use a horizontal line to separate `description` content (#197)
+
 ## 0.7.1 (2026-01-31)
 
 ### Fix
