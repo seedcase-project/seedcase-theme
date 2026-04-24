@@ -1,3 +1,9 @@
+## 0.8.1 (2026-04-24)
+
+### Fix
+
+- :adhesive_bandage: align flower "l" with height of "f" (#205)
+
 ## 0.8.0 (2026-02-20)
 
 ### Feat
