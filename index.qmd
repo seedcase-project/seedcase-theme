@@ -8,9 +8,8 @@ description: "This is an example page to show how the styling works."
 This is the test landing page! With a [link](https://duckduckgo.com/)!
 And an emoji :grin:
 
-[An about link button](nonexisting-link){.btn .about-link}
-[Another one next to it](nonexisting-link){.btn .about-link}
-
+[Primary button](non-existing-link){.btn .btn-primary}
+[Secondary button](non-existing-link){.btn .btn-secondary}
 
 And [longer reference to another header](index.qmd#another) in the same
 document.
@@ -33,9 +32,9 @@ Here's a table:
 
 A list:
 
-1.  first
-2.  second
-3.  third
+1. first
+2. second
+3. third
 
 ![This is a
 caption](_extensions/seedcase-theme/logos/seedcase/icon.svg){width="200"}
