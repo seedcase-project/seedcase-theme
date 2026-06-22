@@ -1,3 +1,9 @@
+## 0.8.2 (2026-06-22)
+
+### Refactor
+
+- 🔥 remove `glossary.json`, centralise in internal repo (#214)
+
 ## 0.8.1 (2026-04-24)
 
 ### Fix
