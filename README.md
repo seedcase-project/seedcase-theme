@@ -52,6 +52,22 @@ and
 [`index.qmd`](https://github.com/seedcase-project/seedcase-theme/blob/main/index.qmd)
 files for examples of how you would use this extension.
 
+### Adding the “A part of Seedcase” badge
+
+To add the following to `_quarto.yml` to show the badge in the navbar:
+
+``` yaml
+  navbar:
+    right:
+      - text: "<img src='/_extensions/seedcase-project/seedcase-theme/logos/seedcase/a-part-of.svg' alt='Main Seedcase website' height='45px'>"
+        href: "https://seedcase-project.org"
+```
+
+It looks like this:
+
+<img src="./_extensions/seedcase-theme/logos/seedcase/a-part-of.svg"
+data-alt-text="Image with the Seedcase logo and the text &#39;A part of Seedcase&#39;." />
+
 ## Contributing
 
 Check out our [contributing document](CONTRIBUTING.md) for information
