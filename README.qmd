@@ -8,36 +8,35 @@ gh:
 
 {{< include /_badges.qmd >}}
 
-This repository contains Quarto shortcodes, embedded extensions, and
-style theming that is used by all Seedcase Project Quarto-based
-repositories.
+This repository contains Quarto shortcodes, embedded extensions, and style
+theming that is used by all Seedcase Project Quarto-based repositories.
 
 ## Installing
 
 To install the extension, use:
 
-``` bash
+```bash
 quarto add seedcase-project/seedcase-theme
 ```
 
 To update the `seedcase-theme`, run:
 
-``` bash
+```bash
 quarto update seedcase-project/seedcase-theme
 ```
 
 ## Using
 
-After installing the extension, add the below yaml key-value
-pair to the `_quarto.yml` file:
+After installing the extension, add the below yaml key-value pair to the
+`_quarto.yml` file:
 
-``` yaml
+```yaml
 format: seedcase-theme-html
 ```
 
 Or for project-level configurations:
 
-``` yaml
+```yaml
 project:
   type: seedcase-theme
 ```
@@ -65,9 +64,8 @@ It looks like this:
 
 ## Contributing
 
-Check out our [contributing document](CONTRIBUTING.md) for information
-on how to contribute to the project, including how to set up your
-development environment.
+Check out our [contributing document](CONTRIBUTING.md) for information on how to
+contribute to the project, including how to set up your development environment.
 
 Please note that this project is released with a [Contributor Code of
 Conduct](https://github.com/{{< meta gh.org >}}/.github/blob/main/CODE_OF_CONDUCT.md).
