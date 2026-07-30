@@ -59,7 +59,7 @@ Add the following to `_quarto.yml` to show the badge in the navbar:
 ``` yaml
   navbar:
     right:
-      - text: "<img src='/_extensions/seedcase-project/seedcase-theme/logos/seedcase/a-part-of.svg' alt='Main Seedcase website' height='45px'>"
+      - text: "<img src='/_extensions/seedcase-project/seedcase-theme/logos/seedcase/a-part-of.svg' alt='Main Seedcase website' height='30px'>"
         href: "https://seedcase-project.org"
 ```
 
