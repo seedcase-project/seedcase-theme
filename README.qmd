@@ -49,7 +49,7 @@ files for examples of how you would use this extension.
 
 ### Adding the "A part of Seedcase" badge
 
-To add the following to `_quarto.yml` to show the badge in the navbar:
+Add the following to `_quarto.yml` to show the badge in the navbar:
 
 ```yaml
   navbar:
