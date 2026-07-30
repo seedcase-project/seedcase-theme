@@ -1,3 +1,9 @@
+## 0.9.0 (2026-07-30)
+
+### Feat
+
+- ✨ add "A part of Seedcase" svg (#218)
+
 ## 0.8.2 (2026-06-22)
 
 ### Refactor
