@@ -1,3 +1,9 @@
+## 0.9.1 (2026-07-31)
+
+### Fix
+
+- 💄 remove whitespace around `a-part-of.svg` (#219)
+
 ## 0.9.0 (2026-07-30)
 
 ### Feat
