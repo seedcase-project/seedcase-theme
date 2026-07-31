@@ -17,7 +17,7 @@ website:
           - href: index.qmd
             text: "Home"
     right:
-      - text: "<img src='/_extensions/seedcase-theme/logos/seedcase/a-part-of.svg' alt='Main Seedcase website' height='45px'>"
+      - text: "<img src='/_extensions/seedcase-theme/logos/seedcase/a-part-of.svg' alt='Main Seedcase website' height='30px'>"
         href: "https://seedcase-project.org"
   sidebar:
     contents:
