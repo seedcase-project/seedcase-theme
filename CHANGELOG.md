@@ -1,3 +1,9 @@
+## 0.9.2 (2026-09-23)
+
+### Refactor
+
+- 🔥 remove `landing-page-card` as it is only on main page (#228)
+
 ## 0.9.1 (2026-07-31)
 
 ### Fix
