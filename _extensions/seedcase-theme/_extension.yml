@@ -38,7 +38,6 @@ contributes:
         type: textbox
       navbar:
         pinned: true
-        background: light
       page-footer:
         border: true
         center:

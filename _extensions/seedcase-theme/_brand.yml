@@ -48,6 +48,7 @@ defaults:
       # Set code background colour variable so all inline code has the same colour
       # including headers with inline code.
       # This colour is the default background colour for inline code.
+      navbar-bg: "#f8f9fa"
       code-bg: var(--brand-code-bg)
     rules: |
       .cell-output pre code {
