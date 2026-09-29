@@ -44,12 +44,12 @@ typography:
 defaults:
   bootstrap:
     defaults:
+      code-bg: var(--brand-code-bg)
       mermaid-edge-color: var(--quarto-scss-export-gray-800)
       # Set code background colour variable so all inline code has the same colour
       # including headers with inline code.
       # This colour is the default background colour for inline code.
       navbar-bg: "#f8f9fa"
-      code-bg: var(--brand-code-bg)
     rules: |
       .cell-output pre code {
         white-space: pre-wrap;
