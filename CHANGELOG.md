@@ -1,3 +1,9 @@
+## 0.9.4 (2026-09-29)
+
+### Refactor
+
+- ♻️ restructure to support book projects (#232)
+
 ## 0.9.3 (2026-09-29)
 
 ### Refactor
